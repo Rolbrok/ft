@@ -3,7 +3,7 @@ all:
 install:
 	cp build/output /usr/bin/ft
 github:
-	git rm -r build
+	if [ ! -z "$(ls -l | grep build)" ]; then git rm -r build; fi
 	git add src Makefile README.md
 	git commit -m "Updated source"
 	git push -u origin master
