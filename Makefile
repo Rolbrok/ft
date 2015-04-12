@@ -5,5 +5,4 @@ install:
 github:
 	git add -A
 	git commit -m "Updated source"
-	git remote add origin git@github.com:Rolbrok/ft.git
 	git push -u origin master
