@@ -3,8 +3,7 @@ all:
 install:
 	cp build/output /usr/bin/ft
 github:
-	git add Makefile
-	cd src && git add -A && cd ..
+	git add -A
 	git commit -m "Updated source"
 	git remote add origin git@github.com:Rolbrok/ft.git
 	git push -u origin master
