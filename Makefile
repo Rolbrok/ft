@@ -1,4 +1,5 @@
 all:
+	if [ -z $(ls -l | grep build) ]; then mkdir build; fi 
 	g++ -std=c++11 src/main.cpp -o build/output
 install:
 	cp build/output /usr/bin/ft
