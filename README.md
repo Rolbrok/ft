@@ -1,8 +1,10 @@
 # ft
 
 To compile:
-```make```
+```make
+```
 
 To install:
-```sudo make install```
+```sudo make install
+```
 
