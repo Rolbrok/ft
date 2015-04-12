@@ -3,6 +3,7 @@ all:
 install:
 	cp build/output /usr/bin/ft
 github:
-	git add src Makefile
+	git rm -r build
+	git add src Makefile README.md
 	git commit -m "Updated source"
 	git push -u origin master
